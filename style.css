@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  background: linear-gradient(#003fff, #4cc2fe);
+}
+.hovered {
+  stroke: #EEE;
+}
+ellipse {
+  fill: #ff8d02; 
+}
+
+path {
+  fill: none;
+  stroke-linecap: round;
+  stroke: #ff8d02;
+}
+
+.mid {
+  stroke-width: 6px;
+
+}
+
+.tail {
+  stroke-width: 6px;
+  stroke: #ff8d02;
+}
+
+rect {
+  fill: none;
+  pointer-events: all;
+}
+
+circle {
+  fill: none;
+  stroke-width: 0.3px;
+}
